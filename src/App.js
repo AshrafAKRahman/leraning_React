@@ -3,13 +3,15 @@ import React, {Component } from 'react';
 import './App.css';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
-import Message from './components/Message';
+// import Message from './components/Message';
+import Counter from './components/Counter';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <Message/>
+      <Counter/>
+        {/* <Message/> */}
         {/* <Greet name = "Bruce" heroName= "Superman">
           <p>This is Children Props</p>
         </Greet>
